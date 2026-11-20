@@ -1,13 +1,7 @@
 import funciones
 from conexion import crear_tabla
 
-lista_productos = [
-    ["manzana","descripcion", "fruta",0,2000],
-    ["manteca","descripcion", "lacteo",0, 4000],
-    ["pan lactal","descripcion", "panaderia",0,5000],
-    ["banana ecuador","descripcion","fruta",0,2000],
-    ["banana roja","descripcion","fruta",0,6000]
-]
+# Creacion de la tabla SQL
 crear_tabla()
 
 while True:
